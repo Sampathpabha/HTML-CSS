@@ -1,0 +1,186 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+  h1{ 
+    font-size: x-large;
+  }
+  body{
+    background-color: rgb(172, 167, 167);
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 120px;
+    margin-top: 60px;
+    transition: 0.5s ease;
+  }
+  nav img:hover{
+    transform: scale(1.25);
+
+  }
+  nav div {
+    margin-right: 50px;
+  }
+  nav div button{
+    height: 50px;
+    width: 110px;
+    font-size: large;
+    margin-left: 15px;
+    border-radius: 25px;
+    border: 0px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  .wwd {
+  margin: auto;
+  height: 650px;
+  width: 1100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.sd {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color:black;
+  color:white;
+  margin:10px 10px 10px 10px;
+  border-radius: 20px;
+  align-content: center;
+  transition: all  0.5s ease;
+}
+.sd:hover{
+transform: scale(1.2);
+background-color: white;
+color: black;
+
+}
+.cls{
+grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: black;
+  color: white;
+  margin: 10px 10px 10px 10px;
+  border-radius: 20px;
+  transition: all  0.5s ease;
+
+}
+.cls:hover{
+transform: scale(1.2);
+background-color: white;
+color: black;
+
+}
+.cys{
+grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: black;
+  color: white;
+  margin: 10px 10px 10px 10px;
+  border-radius: 20px;
+  transition: 0.5s ease;
+}
+.cys:hover{
+transform: scale(1.2);
+background-color: white;
+color: black;
+
+}
+.dai{
+grid-column-start: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: black;
+  color: white;
+  margin: 10px 10px 10px 10px;
+  border-radius: 20px;
+  transition: all  0.5s ease;
+
+}
+.dai:hover{
+transform: scale(1.2);
+background-color: white;
+color: black;
+
+}
+.its{
+grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  background-color: black;
+  color: white;
+  margin: 10px 10px 10px 10px;
+  border-radius: 20px;
+  transition: all  0.5s ease;
+
+}
+.its:hover{
+transform: scale(1.2);
+background-color: white;
+color: black;
+
+}
+.tm{
+grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  background-color: black;
+  color: white;
+  margin: 10px 10px 10px 10px;
+  border-radius: 20px;
+  transition: all  0.5s ease;
+}
+.tm:hover{
+transform: scale(1.2);
+background-color: white;
+color: black;
+}
+.dt{
+grid-column-start: 3;
+  grid-row-start: 2;
+  background-color: black;
+  color: white;
+  margin: 10px 10px 10px 10px;
+  border-radius: 20px;
+  transition: all  0.5s ease;
+
+
+}
+.dt:hover{
+transform: scale(1.2);
+background-color: white;
+color: black;
+
+}
+.dc{
+grid-column-start: 4;
+  grid-row-start: 2;
+  background-color: black;
+  color: white;
+  margin: 10px 10px 10px 10px;
+  border-radius: 20px;
+  transition: all  0.5s ease;
+
+}
+.dc:hover{
+transform: scale(1.2);
+background-color: white;
+color: black;
+
+}
